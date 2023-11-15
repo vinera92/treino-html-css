@@ -39,25 +39,25 @@ header nav a:hover {
     transition: 0.4s all linear;
 }
 
-main .woman {
+#banner-principal .woman {
     position: relative;
 }
 
-main .text-banner {
+#banner-principal .text-banner {
     position: absolute;
     width: 350px;
     top: 30%;
     left: 500px;
 }
 
-main .text-banner h1 {
+#banner-principal .text-banner h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     margin-bottom: 10px;
     color: #fafafa;
 }
 
-main .text-banner p {
+#banner-principal .text-banner p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     margin-bottom: 30px;
@@ -65,7 +65,7 @@ main .text-banner p {
     color: #fafafa;
 }
 
-main .text-banner button {
+#banner-principal .text-banner button {
     background-color: #b7a7f2;
     color: #222221;
     font-family: 'Montserrat', sans-serif;
@@ -75,8 +75,15 @@ main .text-banner button {
     border-radius: 5px;
 }
 
-main .text-banner button:hover {
+#banner-principal .text-banner button:hover {
     background-color: lightpink;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
     transition: 0.4s all linear;
+}
+
+#gallery h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
