@@ -14,13 +14,13 @@ header {
 
 header .logo {
     float: left;
-    margin-left: 40px;
+    margin-left: 450px;
     margin-top: 20px
 }
 
 header .menu {
     float: right;
-    margin-right: 40px;
+    margin-right: 450px;
     margin-top: 30px;
 }
 
@@ -41,13 +41,14 @@ header nav a:hover {
 
 #banner-principal .woman {
     position: relative;
+    text-align: center;
 }
 
 #banner-principal .text-banner {
     position: absolute;
     width: 350px;
     top: 30%;
-    left: 500px;
+    left: 980px;
 }
 
 #banner-principal .text-banner h1 {
@@ -83,7 +84,56 @@ header nav a:hover {
 
 #gallery h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+}
+
+#gallery .blocks {
+    margin-top: 20px;
+    text-align: center;
+    height: 40vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#gallery .blocks .block1 {
+    display: inline-block;
+    text-align: center;    
+}
+
+#gallery .blocks .block1 h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#gallery .blocks .block1 p {
+    font-size: 0.9em;
+}
+
+#gallery .blocks .block2 {
+    display: inline-block;
+    text-align: center;
+}
+
+#gallery .blocks .block2 h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#gallery .blocks .block2 p {
+    font-size: 0.9em;
+}
+
+#gallery .blocks .block3 {
+    display: inline-block;
+    text-align: center;
+}
+
+#gallery .blocks .block3 h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#gallery .blocks .block3 p {
+    font-size: 0.9em;
 }
