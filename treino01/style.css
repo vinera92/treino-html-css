@@ -140,3 +140,82 @@ header nav a:hover {
 #gallery .blocks .block3 p {
     font-size: 0.9em;
 }
+
+#last-banner {
+    background-color: #eeedeb;
+    max-width: 1000px;
+    height: 50vh;
+    margin: auto;
+}
+
+#last-banner h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#last-banner .last-block {
+}
+
+#last-banner .last-block .photo-last {
+    float: left;
+    max-width: 350px;
+    margin-left: 120px;
+}
+
+#last-banner .last-block .container {
+    float: right;
+    background-color: #fafafa;
+    max-width: 350px;
+    height: 290px;
+    text-align: justify;
+    padding: 30px 30px;
+    margin-right: 120px;
+}
+
+#last-banner .last-block .container h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#last-banner .last-block .container p {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+#last-banner .last-block .container button {
+    background-color: #b7a7f2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#last-banner .last-block .container button:hover {
+    background-color: #222221;
+    color: #fafafa;
+    transition: 0.4s all linear;
+}
+
+footer {
+    background-color: #4b4b4b;
+    margin: auto;
+    width: 1000px;
+}
+
+footer p {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fafafa;
+    font-size: 12px;
+}
+
+footer p a {
+    font-family: 'Montserrat', sans-serif;
+    color: #fafafa;
+    font-size: 14px;
+}
