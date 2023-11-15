@@ -7,21 +7,25 @@
 }
 
 header {
-    width: 100%;
-    height: 10vh;
+    position: relative;
+    max-width: 1000px;
+    height: 15vh;
+    margin: auto;
     background-color: #fafafa;
 }
 
 header .logo {
-    float: left;
-    margin-left: 450px;
-    margin-top: 20px
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    transform: translate(50%, 50%);
 }
 
 header .menu {
-    float: right;
-    margin-right: 450px;
-    margin-top: 30px;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(50%, 50%);
 }
 
 header nav a {
@@ -47,8 +51,9 @@ header nav a:hover {
 #banner-principal .text-banner {
     position: absolute;
     width: 350px;
-    top: 30%;
-    left: 980px;
+    top: 25%;
+    left: 35%;
+    transform: translate(50%, 50%);
 }
 
 #banner-principal .text-banner h1 {
