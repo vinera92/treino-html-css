@@ -98,7 +98,8 @@ header nav a:hover {
 
 #gallery .blocks .block1 {
     display: inline-block;
-    text-align: center;    
+    text-align: center;
+    padding: 0px 10px;    
 }
 
 #gallery .blocks .block1 h2 {
@@ -113,6 +114,7 @@ header nav a:hover {
 #gallery .blocks .block2 {
     display: inline-block;
     text-align: center;
+    padding: 0px 10px;
 }
 
 #gallery .blocks .block2 h2 {
@@ -127,6 +129,7 @@ header nav a:hover {
 #gallery .blocks .block3 {
     display: inline-block;
     text-align: center;
+    padding: 0px 10px;
 }
 
 #gallery .blocks .block3 h2 {
