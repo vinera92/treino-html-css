@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #222221;
 }
@@ -24,7 +28,6 @@ header .logo {
     left: 0%;
     transform: translate(50%, 50%);
 }
-
 
 header .menu {
     position: absolute;
